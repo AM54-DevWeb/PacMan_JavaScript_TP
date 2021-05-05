@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PacMan</title>
+    <link rel="stylesheet" href="pacman.css">
+</head>
+
+<body onkeypress="appuisTouche(event)">
+
+    <section class="cadre">
+    <p id="score"></p>
+    <p class="regles">Se déplacer : <br> Droite = D Gauche = Q  Haut = Z  Bas = S</p>
+
+    <center>
+    <p class="regles">Commandes :</p>
+    <button id="pause">Pause</button>
+    <button id="play">Play</button>
+    </center>
+
+    <center>
+    <button id="relancer">Rejouer</button>
+    <button onclick="stopTimer()">Arrêter</button>
+    <button id="ajoutefantomes">+1 Fantome</button>
+    </center>
+
+    <center>
+    <p class="regles">Difficulté :</p>
+    <button id="vitessePlus">+</button>
+    <button id="vitesseMoins">-</button>
+    </center>
+    </section>
+
+    <div id="contener">
+    </div>
+
+    <script src="./contener.js"></script>
+    <script src="./Cfantome.js"></script>
+    <script src="./Cpacman.js"></script>
+    <script src="./pacman.js"></script>
+</body>
+
+</html>
+<!--
+onclick="demarreTimer()"
+-->

@@ -1,0 +1,130 @@
+div{
+    display: grid;
+    grid-template-columns: repeat(19, 40px);
+    grid-template-rows:repeat(22, 40px);
+    z-index: 1;
+}
+
+.mur{
+    /*background-image: url(./img/mur.gif);*/
+    background-image: url(./img2/mur.png);
+    z-index: 1;
+}
+
+.sol{
+    /*background-image: url(./img/sol.gif);*/
+    background-color: #ff7f27;
+    z-index: 1;
+}
+
+.bonbon{
+    /*background-image: url(./img/bonbon.gif);*/
+    background-image: url(./img2/coin.png);
+    z-index: 1;
+}
+
+#contener{
+    margin: 30px auto;
+    border: 5px solid rgb(255, 153, 0);
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.cadre{
+    border: 5px ridge orange;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1%;
+    padding-top: 0px;
+    background: rgba(56, 56, 56, 0.945);
+    display: grid;
+    float: right;
+    margin-right: 150px;
+}
+
+#score{
+    color: orange;
+    z-index: 5;
+    text-align: center;
+    font-size: 2em;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.regles{
+    color: orange;
+    z-index: 5;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+button{
+    background-color: orange;
+    border-radius: 5px;
+    width: 90px;
+    text-align: center;
+    height: 35px;
+margin: 5px;
+}
+
+body{
+    background-image: url(./img2/881338.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pacman{
+    background-image: url(./img/pacman4.gif);
+    z-index: 5;
+    transform: rotate(0deg);
+}
+
+.fantome1{
+    background-image: url(./img/fantjaune1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+
+.fantomes0{
+    background-image: url(./img/fantome_rouge1.gif);
+    z-index: 6;
+}
+
+.fantomes1{
+    background-image: url(./img/fantvert1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+.fantomes2{
+    background-image: url(./img/fantome_bleu1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+.fantomes3{
+    background-image: url(./img/fantviolet1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+.fantomes4{
+    background-image: url(./img/fantrose1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
+
+.fantomes5{
+    background-image: url(./img/fantjaune1.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+}
